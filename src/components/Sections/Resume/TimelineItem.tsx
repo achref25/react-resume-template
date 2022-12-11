@@ -15,10 +15,7 @@ const TimelineItem: FC<{item: TimelineItem}> = memo(({item}) => {
            </div>
       </div>
      {content}
-     <a href="/assets/Programme-anglais-TOEIC.pdf" download="Pdf">
-<button type="button" name='btn' ></button>
-</a>
-     </div>
+    </div>
      );
  
 });
