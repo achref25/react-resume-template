@@ -1,9 +1,5 @@
 import {
- 
-  DownloadIcon,
-
-   
-  
+ DownloadIcon
 } from '@heroicons/react/outline';
 
 
