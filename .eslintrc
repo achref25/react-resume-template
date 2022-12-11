@@ -8,7 +8,7 @@
     "ecmaVersion": 2020,
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint", "simple-import-sort", "import", "react", "react-memo", "react-hooks","simple-import-sort"],
+  "plugins": ["@typescript-eslint", "simple-import-sort", "import", "react", "react-memo", "react-hooks","simple-import-sort","autofix"],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
@@ -24,7 +24,8 @@
     "react-memo/require-memo": "error",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "error",
-    "@typescript-eslint/explicit-function-return-type": "off",
+    "autofix/no-debugger": "error",
+     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/member-ordering": [
       "warn",
       {
